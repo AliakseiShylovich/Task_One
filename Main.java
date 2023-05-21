@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        int numberOff = 3;                           // хранит число которое необходимо исключить из суммы
+        int numberOff = 3;                            // хранит число которое необходимо исключить из суммы
         int sum = 0;
         int[] array = new int[10];
         for (int i = 0; i < array.length; i++) {
