@@ -1,11 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        int[] array;
-        int numberOff = 3;                          // хранит число которое необходимо исключить из суммы
+        int numberOff = 3;                           // хранит число которое необходимо исключить из суммы
         int sum = 0;
-        array = new int[10];
+        int[] array = new int[10];
         for (int i = 0; i < array.length; i++) {
-            array[i] = (int) (Math.random() * 10);  // заполняем массив случайными числами от 0 до 10
+            array[i] = (int) (Math.random() * 10);   // заполняеи массив случайными числами от 0 до 10
             System.out.print(array[i] + " ");
         }
         for (int i = 0; i < array.length; i++) {
